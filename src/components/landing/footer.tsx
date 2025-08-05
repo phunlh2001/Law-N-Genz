@@ -12,15 +12,15 @@ export function Footer() {
               <span className="text-xl font-bold font-headline">Law Lắng & Genz</span>
             </div>
             <p className="text-muted-foreground text-sm max-w-md">
-              Your trusted partner in navigating the complexities of the legal world. We provide clear, accessible, and reliable legal resources.
+              Đối tác tin cậy của bạn trong việc định hướng các vấn đề phức tạp của thế giới pháp lý. Chúng tôi cung cấp các nguồn tài liệu pháp lý rõ ràng, dễ tiếp cận và đáng tin cậy.
             </p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold font-headline tracking-wider uppercase">Contact Us</h3>
+            <h3 className="text-sm font-semibold font-headline tracking-wider uppercase">Liên hệ</h3>
             <ul className="mt-4 space-y-2 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-1 shrink-0 text-muted-foreground" />
-                <span className="text-muted-foreground">123 Legal Avenue, Lawsville, LS 45678</span>
+                <span className="text-muted-foreground">123 Đường Pháp Lý, Thành phố Luật, LS 45678</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-muted-foreground" />
@@ -33,7 +33,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-sm font-semibold font-headline tracking-wider uppercase">Follow Us</h3>
+            <h3 className="text-sm font-semibold font-headline tracking-wider uppercase">Theo dõi chúng tôi</h3>
             <div className="flex mt-4 space-x-4">
               <Link href="#" className="text-muted-foreground hover:text-primary"><span className="sr-only">LinkedIn</span><Linkedin /></Link>
               <Link href="#" className="text-muted-foreground hover:text-primary"><span className="sr-only">Facebook</span><Facebook /></Link>
@@ -41,7 +41,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 Law Lắng & Genz. All rights reserved.</p>
+          <p>&copy; 2024 Law Lắng & Genz. Mọi quyền được bảo lưu.</p>
         </div>
       </div>
     </footer>

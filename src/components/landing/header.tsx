@@ -10,9 +10,9 @@ export function Header() {
           <span className="text-xl font-bold font-headline text-foreground">Law Lắng & Genz</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-          <Link href="#services" className="hover:text-primary transition-colors">Services</Link>
-          <Link href="#disclaimer" className="hover:text-primary transition-colors">Disclaimer</Link>
-          <Link href="#contact" className="hover:text-primary transition-colors">Contact</Link>
+          <Link href="#services" className="hover:text-primary transition-colors">Dịch vụ</Link>
+          <Link href="#disclaimer" className="hover:text-primary transition-colors">Miễn trừ trách nhiệm</Link>
+          <Link href="#contact" className="hover:text-primary transition-colors">Liên hệ</Link>
         </nav>
       </div>
     </header>

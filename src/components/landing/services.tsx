@@ -4,18 +4,18 @@ import { Scale, FileText, Briefcase } from "lucide-react";
 const services = [
   {
     icon: <Scale className="h-10 w-10 text-accent" />,
-    title: "Legal Knowledge",
-    description: "Simplifying complex legal topics into easy-to-understand articles and guides for everyone.",
+    title: "Kiến thức pháp lý",
+    description: "Đơn giản hóa các chủ đề pháp lý phức tạp thành các bài viết và hướng dẫn dễ hiểu cho mọi người.",
   },
   {
     icon: <FileText className="h-10 w-10 text-accent" />,
-    title: "Document Templates",
-    description: "Access a library of professionally crafted legal document templates for various personal and business needs.",
+    title: "Mẫu tài liệu",
+    description: "Truy cập thư viện các mẫu tài liệu pháp lý được soạn thảo chuyên nghiệp cho các nhu cầu cá nhân và doanh nghiệp khác nhau.",
   },
   {
     icon: <Briefcase className="h-10 w-10 text-accent" />,
-    title: "Consultations",
-    description: "Connect with legal experts for personalized advice and consultation sessions tailored to your situation.",
+    title: "Tư vấn",
+    description: "Kết nối với các chuyên gia pháp lý để nhận được lời khuyên và các buổi tư vấn được cá nhân hóa cho tình huống của bạn.",
   },
 ];
 
@@ -24,8 +24,8 @@ export function Services() {
     <section id="services" className="py-20 md:py-28 bg-background">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold">Our Services</h2>
-          <p className="mt-4 text-lg text-muted-foreground">Professional, reliable, and accessible legal support.</p>
+          <h2 className="font-headline text-3xl md:text-4xl font-bold">Dịch vụ của chúng tôi</h2>
+          <p className="mt-4 text-lg text-muted-foreground">Hỗ trợ pháp lý chuyên nghiệp, đáng tin cậy và dễ tiếp cận.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (

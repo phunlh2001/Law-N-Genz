@@ -8,11 +8,11 @@ export function Disclaimer() {
         <Card className="border-accent">
           <CardHeader className="flex-row items-center gap-4">
             <AlertCircle className="h-8 w-8 text-accent" />
-            <CardTitle className="font-headline text-2xl text-accent">Disclaimer</CardTitle>
+            <CardTitle className="font-headline text-2xl text-accent">Tuyên bố miễn trừ trách nhiệm</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
-              The information provided on the Law Lắng & Genz website is for general informational purposes only. All information on the site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site. Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of the site or reliance on any information provided on the site. Your use of the site and your reliance on any information on the site is solely at your own risk. The site cannot and does not contain legal advice. The legal information is provided for general informational and educational purposes only and is not a substitute for professional advice.
+              Thông tin được cung cấp trên trang web Law Lắng & Genz chỉ dành cho mục đích thông tin chung. Mọi thông tin trên trang web được cung cấp một cách thiện chí, tuy nhiên, chúng tôi không đưa ra bất kỳ tuyên bố hay bảo đảm nào, dù rõ ràng hay ngụ ý, về tính chính xác, đầy đủ, hợp lệ, đáng tin cậy, sẵn có hoặc hoàn chỉnh của bất kỳ thông tin nào trên trang web. Trong mọi trường hợp, chúng tôi sẽ không chịu bất kỳ trách nhiệm pháp lý nào đối với bạn về bất kỳ tổn thất hoặc thiệt hại nào phát sinh do việc sử dụng trang web hoặc tin cậy vào bất kỳ thông tin nào được cung cấp trên trang web. Việc bạn sử dụng trang web và tin cậy vào bất kỳ thông tin nào trên trang web hoàn toàn là rủi ro của riêng bạn. Trang web không thể và không chứa lời khuyên pháp lý. Thông tin pháp lý được cung cấp chỉ dành cho mục đích thông tin và giáo dục chung và không thể thay thế cho lời khuyên chuyên nghiệp.
             </p>
           </CardContent>
         </Card>
