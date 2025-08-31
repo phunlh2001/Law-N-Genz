@@ -1,4 +1,4 @@
-import { Scale, MapPin, Phone, Mail, Linkedin, Facebook } from "lucide-react";
+import { Scale, Phone, Mail, Linkedin, Facebook } from "lucide-react";
 import Link from "next/link";
 
 export function Footer() {
@@ -18,17 +18,17 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold font-headline tracking-wider uppercase">Liên hệ</h3>
             <ul className="mt-4 space-y-2 text-sm">
-              <li className="flex items-start gap-2">
-                <MapPin className="h-4 w-4 mt-1 shrink-0 text-muted-foreground" />
-                <span className="text-muted-foreground">123 Đường Pháp Lý, Thành phố Luật, LS 45678</span>
+              <li className="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0 text-muted-foreground"><path d="M20.34 3.66 12 12 3.66 20.34"></path><path d="M16 8a4 4 0 0 0-8 0"></path><path d="m12 12 8.34 8.34"></path><path d="m3.66 3.66 8.34 8.34"></path></svg>
+                <span className="text-muted-foreground">Zalo: 0378044780</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-muted-foreground" />
-                <span className="text-muted-foreground">(123) 456-7890</span>
+                <span className="text-muted-foreground">0378044780</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0 text-muted-foreground" />
-                <span className="text-muted-foreground">contact@lawlanggenz.com</span>
+                <span className="text-muted-foreground">luatsuthang03@gmail.com</span>
               </li>
             </ul>
           </div>
