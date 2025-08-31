@@ -1,5 +1,5 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Scale, FileText, Briefcase, Building2, BookUser, ShieldQuestion, BrainCircuit, PencilRuler } from "lucide-react";
+import { Scale, FileText, Briefcase, Building2, BookUser, ShieldCheck, Brain, PencilRuler } from "lucide-react";
 
 const services = [
   {
@@ -18,7 +18,7 @@ const services = [
     description: "Hỗ trợ thực hiện các thủ tục hành chính như đăng ký công ty, thay đổi giấy phép kinh doanh, và các thủ tục liên quan đến đất đai.",
   },
   {
-    icon: <ShieldQuestion className="h-10 w-10 text-accent" />,
+    icon: <ShieldCheck className="h-10 w-10 text-accent" />,
     title: "Sở hữu trí tuệ",
     description: "Tư vấn và hỗ trợ đăng ký bản quyền, nhãn hiệu, và các vấn đề khác liên quan đến sở hữu trí tuệ để bảo vệ tài sản sáng tạo của bạn.",
   },
@@ -28,7 +28,7 @@ const services = [
     description: "Hỗ trợ người nước ngoài các thủ tục làm hộ chiếu, thị thực, và đăng ký lao động tại Việt Nam một cách nhanh chóng và hiệu quả.",
   },
   {
-    icon: <BrainCircuit className="h-10 w-10 text-accent" />,
+    icon: <Brain className="h-10 w-10 text-accent" />,
     title: "Tư vấn tâm lý",
     description: "Cung cấp các buổi tư vấn tâm lý, giúp bạn giải tỏa căng thẳng và tìm ra hướng giải quyết cho các vấn đề trong cuộc sống.",
   },
